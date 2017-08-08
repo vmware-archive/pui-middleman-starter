@@ -1,0 +1,455 @@
+//PUI Colors
+// Accent colors - teal for now
+// -------------------------
+
+$teal-1: #083330;
+$teal-2: #0B4D48;
+$teal-3: #025A53;
+$teal-4: #0F6660;
+$teal-5: #00776D;
+$teal-6: #138078;
+$teal-7: #179990;
+$teal-8: #00A79D;
+$teal-9: #1BB3A8;
+$teal-10: #1FCCC0;
+$teal-11: #D9FFFC;
+
+
+// Grays - use these rather than the bootstrap grays
+// -------------------------
+
+$gray-1: #282828;
+$gray-2: #424242;
+$gray-3: #686868;
+$gray-4: #8d8e8e;
+$gray-5: #b4b4b4;
+$gray-6: #c3c5c7;
+$gray-7: #d4d9d9;
+$gray-8: #e0e4e5;
+$gray-9: #ecefef;
+$gray-10: #F8F8F8;
+$gray-11: white;
+
+// Blue
+// -------------------------
+
+$blue-1: #135680;
+$blue-2: #176799;
+$blue-3: #1B78B3;
+$blue-4: #1F8ACC;
+$blue-5: #229BE6;
+$blue-6: #D9F0FF;
+
+
+
+// Red
+// -------------------------
+
+$red-1: #801319;
+$red-2: #99171D;
+$red-3: #B31B22;
+$red-4: #CC1F27;
+$red-5: #F2242F;
+$red-6: #FFD9DB;
+
+// Green
+// -------------------------
+$green-1: #4D8013;
+$green-2: #5C9917;
+$green-3: #6CB31B;
+$green-4: #7BCC1F;
+$green-5: #8AE622;
+$green-6: #EDFFD9;
+
+// Yellow
+// -------------------------
+$yellow-1: #806613;
+$yellow-2: #997B17;
+$yellow-3: #B38F1B;
+$yellow-4: #CCA41F;
+$yellow-5: #E6B822;
+$yellow-6: #FFF6D9;
+
+
+// Shadows
+// -------------------------
+
+$shadow-1 : rgba(0, 0, 0, 0.3);
+$shadow-2 : rgba(0, 0, 0, 0.14);
+$shadow-3 : rgba(0, 0, 0, 0.07);
+$shadow-4 : rgba(0, 0, 0, 0.035);
+$btn-shadow: rgba(211,217,217,0.50);
+$glow-1 : rgba(255,255,255,0.1);
+$glow-2 : rgba(255,255,255,0.2);
+$glow-3 : rgba(255,255,255,0.4);
+$glow-4 : rgba(255,255,255,0.6);
+$glow-5 : rgba(255,255,255,1);
+
+
+// gray backgrounds
+$neutral-1: $gray-1;
+$neutral-2: $gray-2;
+$neutral-3: $gray-3;
+$neutral-4: $gray-4;
+$neutral-5: $gray-5;
+$neutral-6: $gray-6;
+$neutral-7: $gray-7;
+$neutral-8: $gray-8;
+$neutral-9: $gray-9;
+$neutral-10: $gray-10;
+$neutral-11: $gray-11;
+
+// Navy
+// -------------------------
+
+$navy-1: #232B2F;
+$navy-2: #243641;
+$navy-3: #3D4A51;
+$navy-4: #4F6069;
+$navy-5: #607580;
+$navy-6: #788E9A;
+$navy-7: #A2B1B9;
+$navy-8: #C5CED3;
+$navy-9: #DFE5E8;
+$navy-10: #EAEDEF;
+$navy-11: #F5F6F7;
+// Dark colors
+// -------------------------
+
+$dark-1:                $navy-1;
+$dark-2:                $navy-2;
+$dark-3:                $navy-3;
+$dark-4:                $navy-4;
+$dark-5:                $navy-5;
+$dark-6:                $navy-6;
+$dark-7:                $navy-7;
+$dark-8:                $navy-8;
+$dark-9:                $navy-9;
+$dark-10:               $navy-10;
+$dark-11:               $navy-11;
+
+// Brand colors
+// -------------------------
+
+$brand-1:               $teal-1;
+$brand-2:               $teal-2;
+$brand-3:               $teal-3;
+$brand-4:               $teal-4;
+$brand-5:               $teal-5;
+$brand-6:               $teal-6;
+$brand-7:               $teal-7;
+$brand-8:               $teal-8;
+$brand-9:               $teal-9;
+$brand-10:              $teal-10;
+$brand-11:              $teal-11;
+
+$brand-primary:         #1b92cb !default;
+$brand-success:         #5cb85c !default;
+$brand-warning:         #f0ad4e !default;
+$brand-danger:          #CA7070 !default;
+$brand-info:            #5bc0de !default;
+
+// Accents
+// -------------------------
+
+$accent-1: $blue-1;
+$accent-2: $blue-2;
+$accent-3: $blue-3;
+$accent-4: $blue-4;
+$accent-5: $blue-5;
+$accent-6: $blue-6;
+
+// Errors
+// -------------------------
+
+$error-1: $red-1;
+$error-2: $red-2;
+$error-3: $red-3;
+$error-4: $red-4;
+$error-5: $red-5;
+$error-6: $red-6;
+
+// Warnings
+// -------------------------
+
+$warn-1: $yellow-1;
+$warn-2: $yellow-2;
+$warn-3: $yellow-3;
+$warn-4: $yellow-4;
+$warn-5: $yellow-5;
+$warn-6: $yellow-6;
+
+// Success
+// -------------------------
+
+$success-1: $green-1;
+$success-2: $green-2;
+$success-3: $green-3;
+$success-4: $green-4;
+$success-5: $green-5;
+$success-6: $green-6;
+
+
+
+.bg-neutral-1 {
+  background-color: $neutral-1 !important;
+}
+.bg-neutral-2 {
+  background-color: $neutral-2 !important;
+}
+.bg-neutral-3 {
+  background-color: $neutral-3 !important;
+}
+.bg-neutral-4 {
+  background-color: $neutral-4 !important;
+}
+.bg-neutral-5 {
+  background-color: $neutral-5 !important;
+}
+.bg-neutral-6 {
+  background-color: $neutral-6 !important;
+}
+.bg-neutral-7 {
+  background-color: $neutral-7 !important;
+}
+.bg-neutral-8 {
+  background-color: $neutral-8 !important;
+}
+.bg-neutral-9 {
+  background-color: $neutral-9 !important;
+}
+.bg-neutral-10 {
+  background-color: $neutral-10 !important;
+}
+.bg-neutral-11 {
+  background-color: $neutral-11 !important;
+}
+
+// Teals
+.bg-brand-1{
+  background-color: $brand-1 !important;
+}
+
+.bg-brand-2{
+  background-color: $brand-2 !important;
+}
+
+.bg-brand-3{
+  background-color: $brand-3 !important;
+}
+
+.bg-brand-4{
+  background-color: $brand-4 !important;
+}
+
+.bg-brand-5{
+  background-color: $brand-5 !important;
+}
+
+.bg-brand-6{
+  background-color: $brand-6 !important;
+}
+
+.bg-brand-7{
+  background-color: $brand-7 !important;
+}
+
+.bg-brand-8{
+  background-color: $brand-8 !important;
+}
+
+.bg-brand-9{
+  background-color: $brand-9 !important;
+}
+
+.bg-brand-10{
+  background-color: $brand-10 !important;
+}
+
+.bg-brand-11{
+  background-color: $brand-11 !important;
+}
+
+// Blues
+
+.bg-accent-1{
+  background-color: $accent-1 !important;
+}
+
+.bg-accent-2{
+  background-color: $accent-2 !important;
+}
+
+.bg-accent-3{
+  background-color: $accent-3 !important;
+}
+
+.bg-accent-4{
+  background-color: $accent-4 !important;
+}
+
+.bg-accent-5{
+  background-color: $accent-5 !important;
+}
+
+.bg-accent-6{
+  background-color: $accent-6 !important;
+}
+
+// Navies
+
+.bg-dark-1{
+  background-color: $dark-1 !important;
+}
+
+.bg-dark-2{
+  background-color: $dark-2 !important;
+}
+
+.bg-dark-3{
+  background-color: $dark-3 !important;
+}
+
+.bg-dark-4{
+  background-color: $dark-4 !important;
+}
+
+.bg-dark-5{
+  background-color: $dark-5 !important;
+}
+
+.bg-dark-6{
+  background-color: $dark-6 !important;
+}
+
+.bg-dark-7{
+  background-color: $dark-7 !important;
+}
+
+.bg-dark-8{
+  background-color: $dark-8 !important;
+}
+
+.bg-dark-9{
+  background-color: $dark-9 !important;
+}
+
+.bg-dark-10{
+  background-color: $dark-10 !important;
+}
+
+.bg-dark-11{
+  background-color: $dark-11 !important;
+}
+// Reds
+.bg-error-1{
+  background-color: $error-1 !important;
+}
+
+.bg-error-2{
+  background-color: $error-2 !important;
+}
+
+.bg-error-3{
+  background-color: $error-3 !important;
+}
+
+.bg-error-4{
+  background-color: $error-4 !important;
+}
+
+.bg-error-5{
+  background-color: $error-5 !important;
+}
+
+.bg-error-6{
+  background-color: $error-6 !important;
+}
+
+// Yellows
+.bg-warn-1{
+  background-color: $warn-1 !important;
+}
+
+.bg-warn-2{
+  background-color: $warn-2 !important;
+}
+
+.bg-warn-3{
+  background-color: $warn-3 !important;
+}
+
+.bg-warn-4{
+  background-color: $warn-4 !important;
+}
+
+.bg-warn-5{
+  background-color: $warn-5 !important;
+}
+
+.bg-warn-6{
+  background-color: $warn-6 !important;
+}
+
+// Greens
+.bg-success-1{
+  background-color: $success-1 !important;
+}
+
+.bg-success-2{
+  background-color: $success-2 !important;
+}
+
+.bg-success-3{
+  background-color: $success-3 !important;
+}
+
+.bg-success-4{
+  background-color: $success-4 !important;
+}
+.bg-success-5{
+  background-color: $success-5 !important;
+}
+
+.bg-success-6{
+  background-color: $success-6 !important;
+}
+
+
+// These classes are for the style guide only
+
+.bg-glow-1 {
+  background-color: $glow-1 !important;
+}
+
+.bg-glow-2 {
+  background-color: $glow-2 !important;
+}
+
+.bg-glow-3 {
+  background-color: $glow-3 !important;
+}
+
+.bg-glow-4 {
+  background-color: $glow-4 !important;
+}
+
+.bg-glow-5 {
+  background-color: $glow-5 !important;
+}
+
+.bg-shadow-1{
+  background-color: $shadow-1 !important;
+}
+
+.bg-shadow-2{
+  background-color: $shadow-2 !important;
+}
+
+.bg-shadow-3{
+  background-color: $shadow-3 !important;
+}
+
+.bg-shadow-4{
+  background-color: $shadow-4 !important;
+}
